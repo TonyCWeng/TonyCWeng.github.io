@@ -3256,6 +3256,7 @@
 
 	#header {
 		background: rgba(39, 40, 51, 0.965);
+		/*background-image: url("images/2144.jpg");*/
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -3999,3 +4000,7 @@
 					}
 
 	}
+
+#header {
+	background-image: url("images/2144.jpg");
+}
