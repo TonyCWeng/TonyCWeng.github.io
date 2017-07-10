@@ -2378,14 +2378,14 @@
 		position: relative;
 	}
 
-		/*.icon:before {
+		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
-		}*/
+		}
 
 		.icon > .label {
 			display: none;
@@ -2551,7 +2551,8 @@
 			}
 
 				ul.icons li .icon {
-					font-size: 0.8em;
+					/*font-size: 0.8em;*/
+					font-size: 1em;
 				}
 
 					ul.icons li .icon:before {
@@ -4000,7 +4001,3 @@
 					}
 
 	}
-
-/*#header {
-	background-image: url("images/2144.jpg");
-}*/
