@@ -60,7 +60,7 @@
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2>Software Developer</h2>
+							<h2>Software Engineer</h2>
 							<p>Need some code written?<br />
 							I'm your man.</p>
 						</header>
@@ -118,7 +118,10 @@
 
 			<!-- Three -->
 				<section id="two" class="spotlight style2 left">
-					<span class="image fit main bottom"><img src="https://giant.gfycat.com/SimplisticPleasedIrukandjijellyfish.gif" alt="" /></span>
+					<span class="image fit main bottom hover2"><img
+						src="images/instructions.png"
+						data-src="images/instructions.png"
+						data-hover="https://giant.gfycat.com/SimplisticPleasedIrukandjijellyfish.gif" alt="" /></span>
 					<div class="content">
 						<header>
 							<h2>Fireworks</h2>
@@ -126,7 +129,7 @@
 						</header>
 						<p>Fireworks is rather straight-forward to play: on alphabetical keyclicks, an animation will render on the screen alongside a snazzy sound effect. Use the spacebar or z key to remove all ongoing animations. </p>
 						<ul class="actions">
-							<li><a href="#" class="button">Play</a></li>
+							<li><a href="https://tonycweng.github.io/fireworks/" class="button">Play</a></li>
 						</ul>
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
@@ -221,6 +224,13 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+			$(".hover2").mouseover(function () {
+			  $(this).attr('src', $(this).data("hover"));
+			}).mouseout(function () {
+			  $(this).attr('src', $(this).data("src"));
+			});
+			</script>
 
 	</body>
 </html>
