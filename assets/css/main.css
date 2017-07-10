@@ -2378,14 +2378,14 @@
 		position: relative;
 	}
 
-		.icon:before {
+		/*.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
-		}
+		}*/
 
 		.icon > .label {
 			display: none;
@@ -2395,19 +2395,19 @@
 			text-decoration: none;
 		}
 
-			.icon.alt:before {
+			/*.icon.alt:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
-			}
+			}*/
 
-			.icon.alt:before {
+			/*.icon.alt:before {
 				color: #1c1d26 !important;
 				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
-			}
+			}*/
 
 		.icon.major {
 			background: #272833;
