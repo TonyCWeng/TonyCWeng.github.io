@@ -2451,6 +2451,9 @@
 		display: inline-block;
 		position: relative;
 		overflow: hidden;
+		image-rendering: auto;
+	  image-rendering: crisp-edges;
+	  image-rendering: pixelated;
 	}
 
 		.image:before {
