@@ -4009,8 +4009,10 @@
 
 	}
 
-.center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.custom {
+	padding: 0 25% 0 25%;
+}
+
+.custom-header {
+	text-align: center;
 }
