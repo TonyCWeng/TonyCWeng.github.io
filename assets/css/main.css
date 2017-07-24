@@ -2371,7 +2371,10 @@
 		}
 
 /* Icon */
-
+	.flex {
+		display: flex;
+		flex-direction: column;
+	}
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2388,7 +2391,8 @@
 		}
 
 		.icon > .label {
-			display: none;
+			/*display: none;*/
+			color: #fff;
 		}
 
 		.icon.alt {
@@ -3449,7 +3453,7 @@
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			line-height: 1em;
-			margin: 2em 0 0 0;
+			margin: 4em 0 0 0;
 			padding: 0;
 			text-align: center;
 		}
